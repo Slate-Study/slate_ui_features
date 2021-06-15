@@ -4,10 +4,8 @@ class PostsFeature extends StatefulWidget{
 
   final ClassRoom classRoom;
   final String schoolID;
-  final String selectedTag;
 
-  PostsFeature({Key key, @required this.classRoom , @required this.schoolID ,
-   @required this.selectedTag}):super(key : key);
+  PostsFeature({Key key, @required this.classRoom , @required this.schoolID }):super(key : key);
 
   @override
   State<StatefulWidget> createState() {
