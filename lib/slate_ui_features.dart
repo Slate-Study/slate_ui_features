@@ -21,3 +21,6 @@ part 'chatMessages_feature.dart';
 part 'chatNewMessages_feature.dart';
 part 'posts_feature.dart';
 part 'newPosts_feature.dart';
+part 'submissionStudent_feature.dart';
+part 'submissionTeacher_feature.dart';
+part 'newWork_feature.dart';

@@ -66,9 +66,9 @@ class _NewPostsFeature extends State<NewPostsFeature> {
 
         child: Column(mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment:CrossAxisAlignment.center,children: [
 
-          Row(crossAxisAlignment: CrossAxisAlignment.start,children: [
+          Row(crossAxisAlignment: CrossAxisAlignment.center,children: [
 
-            Padding(padding: EdgeInsets.only(left: W(1) , right: W(1) , top: H(1)),
+            Padding(padding: EdgeInsets.only(left: W(1) , right: W(1)),
                 child: Container(width: W(10) , height: H(10) ,child: Material(color: Colors.white ,child: IconButton(icon: Icon(CupertinoIcons.paperclip) , iconSize: W(6),
                     color: Color(0xd91a233a),
                     onPressed: ( ){
@@ -90,7 +90,7 @@ class _NewPostsFeature extends State<NewPostsFeature> {
                     ) 
                   ))) ,
 
-            Padding(padding: EdgeInsets.only(left: W(2) , top: H(3) , right: W(2.5)) ,
+            Padding(padding: EdgeInsets.only(left: W(2) , right: W(2.5)) ,
               child: Container(height: H(8.5) , width: W(20) ,child: ElevatedButton(child: Text("Write") ,
                 style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>( CupertinoColors.activeBlue )),
                 onPressed: (){
