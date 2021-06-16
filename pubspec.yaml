@@ -13,27 +13,27 @@ dependencies:
   slate_entity_models:
     git:
       url: https://github.com/Slate-Study/slate_entity_models.git
-      ref: main
+      ref: dev_branch
   slate_element_models:
     git:
       url: https://github.com/Slate-Study/slate_element_models.git
-      ref: main
+      ref: dev_branch
   slate_constants:
     git:
       url: https://github.com/Slate-Study/slate_constants.git
-      ref: main
+      ref: dev_branch
   slate_data:
     git:
       url: https://github.com/Slate-Study/slate_data.git
-      ref: main
+      ref: dev_branch
   slate_ui_elements:
     git: 
       url: https://github.com/Slate-Study/slate_ui_elements.git
-      ref: main
+      ref: dev_branch
   slate_file_services:
     git:
       url: https://github.com/Slate-Study/slate_file_services.git
-      ref: main
+      ref: dev_branch
 
   google_fonts:
   keyboard_visibility:
