@@ -441,7 +441,7 @@ packages:
     description:
       path: "."
       ref: dev_branch
-      resolved-ref: ce3b211254e05b9b36ddfad67b9ba4ed84f47c2c
+      resolved-ref: "2be37b4ca97eb51827a1dba78a428430680f9a04"
       url: "https://github.com/Slate-Study/slate_data.git"
     source: git
     version: "0.0.1"
@@ -450,7 +450,7 @@ packages:
     description:
       path: "."
       ref: dev_branch
-      resolved-ref: "4afecdde488e4f15dcfd7b9bf39f3de88284f787"
+      resolved-ref: "9f8ea1cb785646ce6107af19fdc2375ad18d6a8c"
       url: "https://github.com/Slate-Study/slate_element_models.git"
     source: git
     version: "0.0.1"
@@ -468,7 +468,7 @@ packages:
     description:
       path: "."
       ref: dev_branch
-      resolved-ref: "213ee451309720d3d5ace434f7c3bfbc511b868d"
+      resolved-ref: "64afe11c9b9ff4f3564a091e2952460c06e09b9c"
       url: "https://github.com/Slate-Study/slate_file_services.git"
     source: git
     version: "0.0.1"
@@ -477,7 +477,7 @@ packages:
     description:
       path: "."
       ref: dev_branch
-      resolved-ref: "86130172d7064518cd71421953535323ee6ae42f"
+      resolved-ref: "6ecf59ddf4d4e10a941b589ebfa0f94cb5de535b"
       url: "https://github.com/Slate-Study/slate_ui_elements.git"
     source: git
     version: "0.0.1"

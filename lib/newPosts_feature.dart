@@ -97,7 +97,7 @@ class _NewPostsFeature extends State<NewPostsFeature> {
                   setState(() {
                     _newTextPost = newTextPost.text;
                     onCreate();
-                    newTextPost.clear(); fName = ""; result = null;
+                    newTextPost.clear(); fName = " "; result = null;
                     FocusScope.of(context).unfocus();
                   });
                 },),),)
@@ -198,8 +198,9 @@ class _NewPostsFeature extends State<NewPostsFeature> {
             });
           });
 
-          ut.whenComplete(() {
-            PostFile newPostFile = PostFile.newPost(_newTextPost, docPath, widget.teacher);
+          ut.whenComplete(() async {
+            String tempLink= await ut.snapshot.ref.getDownloadURL();
+            PostFile newPostFile = PostFile.newPost(_newTextPost, docPath, widget.teacher , tempLink);
             createFilePost(widget.classRoom, newPostFile, widget.teacher);
           });
 

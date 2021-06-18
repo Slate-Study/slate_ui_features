@@ -26,14 +26,15 @@ dependencies:
     git:
       url: https://github.com/Slate-Study/slate_data.git
       ref: dev_branch
-  slate_ui_elements:
-    git: 
-      url: https://github.com/Slate-Study/slate_ui_elements.git
-      ref: dev_branch
   slate_file_services:
     git:
       url: https://github.com/Slate-Study/slate_file_services.git
       ref: dev_branch
+  slate_ui_elements:
+    git:
+      url: https://github.com/Slate-Study/slate_ui_elements.git
+      ref: dev_branch
+  
 
   google_fonts:
   keyboard_visibility:
