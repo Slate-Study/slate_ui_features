@@ -431,8 +431,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: cc8fe69fb89aa2fd7d375487d9fa70d3d406b690
+      ref: dev_branch
+      resolved-ref: "43eee3c545a786f10335e8596928a5e3077b266a"
       url: "https://github.com/Slate-Study/slate_constants.git"
     source: git
     version: "0.0.1"
@@ -440,8 +440,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: "0f665f93af54db1c4c013eafee6b4d9a352993f7"
+      ref: dev_branch
+      resolved-ref: "2be37b4ca97eb51827a1dba78a428430680f9a04"
       url: "https://github.com/Slate-Study/slate_data.git"
     source: git
     version: "0.0.1"
@@ -449,8 +449,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: "194b396a750c166faeba674d0c204abcc304be02"
+      ref: dev_branch
+      resolved-ref: "9f8ea1cb785646ce6107af19fdc2375ad18d6a8c"
       url: "https://github.com/Slate-Study/slate_element_models.git"
     source: git
     version: "0.0.1"
@@ -458,8 +458,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: bd695bac70535faf009c4dc0e6117289febcd859
+      ref: dev_branch
+      resolved-ref: d13d09f6c148790c99c3459c61057c0c2f0a7157
       url: "https://github.com/Slate-Study/slate_entity_models.git"
     source: git
     version: "0.0.1"
@@ -467,8 +467,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: "3bc67df2e0bb6f428069f2ac524d0fe04cffc7c4"
+      ref: dev_branch
+      resolved-ref: "64afe11c9b9ff4f3564a091e2952460c06e09b9c"
       url: "https://github.com/Slate-Study/slate_file_services.git"
     source: git
     version: "0.0.1"
@@ -476,8 +476,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: "451998c230b7a5ab02619ddaf77cdcbf7bb0cefb"
+      ref: dev_branch
+      resolved-ref: "6ecf59ddf4d4e10a941b589ebfa0f94cb5de535b"
       url: "https://github.com/Slate-Study/slate_ui_elements.git"
     source: git
     version: "0.0.1"
