@@ -193,7 +193,7 @@ class _SubmissionStudentFeature extends State<SubmissionStudentFeature> {
       ),
       child: ElevatedButton(
         style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>( CupertinoColors.activeBlue )),
-        child: Text("Submit" , style: GoogleFonts.varela(color: Colors.black , fontSize: W(2.7) ),),
+        child: Text("Submit" , style: GoogleFonts.varela(color: Colors.black , fontSize: W(2.5) ),),
         onPressed: (){
           String _comment = commentField.text;
           _onSubmit(_comment);
